@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="#"><img src="img/new logo.png"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times"onclick="HideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Course</a></li>
+          <li><a href="blog.html">Blogz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+  </section>
+<!-- courses -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+      <div class="course-col">
+         <h3>Intermediate</h3>
+         <p>At the intermediate level, the college provides courses in arts, commerce and science.</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p> the college offers undergraduate programs in subjects such as Tamil, English, Mathematics, Physics, Chemistry, Computer Science, Botany, Zoology, History, Economics, Commerce and Business Administration.</p>
+     </div>
+     <div class="course-col">
+      <h3>Post Graduation</h3>
+      <p>The college also offers postgraduate programs in Tamil, English, Mathematics, Physics, Chemistry, Computer Science, Botany, Zoology, History, Economics and Commerce.</p>
+   </div>
+    </div>
+  </section>
+   <!-- facilities -->
+   <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Islamiah College (Autonomous) offers a wide range of facilities for students.</p>
+  <div class="row">
+      <div class="facilities-col">
+        <img src="img/library.jpg" alt="">
+        <h3>World Class Library</h3>
+        <p>The college has a world-class library with a vast collection of books, journals, and other resources.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/garden.jpg" alt="">
+        <h3>Herbal Garden</h3>
+        <p>The college has a herbal garden, which is used for research and educational purposes.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/canteen1.jpg" alt="">
+        <h3>Hygiene cafeteria</h3>
+        <p>The college has a hygiene cafeteria, which serves healthy and nutritious food to students.</p>
+      </div>
+    </div>  
+
+  </section>
+  
+<!-- foooter -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>The college has a rich history and a strong commitment to academic excellence, which has helped it to achieve a reputation as one of the leading colleges in the region.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made With <i class="fa fa-heart-o"></i> By Farhan_artz09</p>
+</section>
+  <script>
+    var navlinks =document.getElementById("navlinks");
+
+    function ShowMenu(){
+      navlinks.style.right="0";
+    }
+    function HideMenu(){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>

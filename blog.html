@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="#"><img src="img/new logo.png"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times"onclick="HideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Course</a></li>
+          <li><a href="blog.html">Blogz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="ShowMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online programme 2024</h1>
+  </section>
+<!-- Blog Content -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/graduate.jpg">
+            <h2>Our Certificate & Online programme 2024</h2>
+            <p>The programme is designed to cater to the needs of students who are unable to attend regular classes, and it offers a range of courses in various disciplines.</p>
+            <br>
+            <p>The programme is designed to provide students with a high-quality education, with a focus on practical skills and real-world applications.</p>
+            <br>
+            <p>The programme is delivered through a user-friendly online platform, which allows students to access course materials, submit assignments, and interact with faculty and other students from anywhere in the world.</p>
+            <br>
+            <p>The programme is designed to provide students with the skills and knowledge they need to succeed in their chosen careers, and it offers a range of opportunities for professional development and growth.</p>
+            <div class="comment-box">
+              <h3>Leave A Commment</h3>
+              <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+              </form>
+            </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business  Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Computer Scinece</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>23</span>
+          </div>
+          <div>
+            <span>Artifical Intelligent</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Autocad</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>commerce</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>English</span>
+            <span>28</span>
+          </div>
+        </div>
+    </div>
+</section>
+<!-- foooter -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>The college has a rich history and a strong commitment to academic excellence, which has helped it to achieve a reputation as one of the leading colleges in the region.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Made With <i class="fa fa-heart-o"></i> By Farhan_artz09</p>
+</section>
+  <script>
+    var navlinks =document.getElementById("navlinks");
+
+    function ShowMenu(){
+      navlinks.style.right="0";
+    }
+    function HideMenu(){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
