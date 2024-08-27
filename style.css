@@ -189,10 +189,17 @@ h3{
     padding-top: 100px;
 }
 .facilities-col{
-    flex-basis: 31%;
+    flex-basis: 45%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    margin-left: 21px;
 }
 .facilities-col img{
     width: 100%;
@@ -212,6 +219,7 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    overflow-x: scroll;
 }
 .testimonial-col{
     flex-basis: 44%;
@@ -220,8 +228,8 @@ h3{
     text-align: left;
     background: #fff3f3;
     padding: 25px;
-    cursor: pointer;
     display: flex;
+    cursor: pointer;
 }
 .testimonial-col img{
 height: 47px;
