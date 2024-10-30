@@ -43,6 +43,7 @@ nav img{
     color: white;
     text-decoration: none;
     font-size: 23px;
+    margin-left: 25px;
 }
 .nav-links ul li::after{
     content: '';
@@ -113,7 +114,8 @@ p{
 .row{
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .course-col{
     flex-basis: 31%;
@@ -139,7 +141,7 @@ h3{
     padding-top: 50px;
 }
 .campus-col{
-    flex-basis: 32%;
+    flex-basis: 28%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -189,7 +191,7 @@ h3{
     padding-top: 100px;
 }
 .facilities-col{
-    flex-basis: 45%;
+    flex-basis: 26%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -214,6 +216,10 @@ h3{
     text-align: left;
 }
 /* testimonials */
+#testimonials{
+    display: flex;
+    justify-content: space-evenly;
+}
 .testimonials{
     width: 80%;
     margin: auto;
@@ -221,8 +227,11 @@ h3{
     padding-top: 100px;
     overflow-x: scroll;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .testimonial-col{
-    flex-basis: 44%;
+    flex-basis: 30%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -231,6 +240,8 @@ h3{
     display: flex;
     cursor: pointer;
 }
+.testimonial-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0,0,0.2);}
 .testimonial-col img{
 height: 47px;
 margin-left: 5px;
